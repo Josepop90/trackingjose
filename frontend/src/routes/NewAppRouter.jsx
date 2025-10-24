@@ -34,6 +34,8 @@ function NewAppRouter() {
           {/* RUTA PÚBLICA DE TRACKING - Sin autenticación */}
           <Route path="/tracking/:ordenId" element={<TrackingPage />} />
           <Route path="/tracking" element={<TrackingPage />} />
+          <Route path="/consulta/:ordenId" element={<TrackingPage />} />
+          <Route path="/consulta" element={<TrackingPage />} />
 
           {/* Rutas protegidas con MainLayout */}
           <Route
