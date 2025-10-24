@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Mail, Lock, CheckCircle, Eye, EyeOff } from "lucide-react";
+import { Mail, Lock, CheckCircle, Eye, EyeOff, AlertCircle } from "lucide-react";
 import { useAuth } from "../../contexts/AuthContext";
 
 function NewLoginPage() {
